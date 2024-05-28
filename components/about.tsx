@@ -17,32 +17,23 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+      <SectionHeading>About Us</SectionHeading>
+      <p className="mb-3 text-lg">
+        <span className="font-semibold text-lg">💻Welcome to our coding universe, </span><br />
+        Where innovation meets expertise. At DevFlex, we're not just developers;
+        we're architects of digital solutions, crafting tomorrow's technology today.
+        With a collective experience of 3 years, we bring a dynamic blend of creativity,
+        precision, and passion to every project.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      <p className="text-lg">
+        <br /><span className="font-bold text-lg">🚀 Our Mission:</span> <br />
+        Empowering businesses through cutting-edge technology. We strive to transform ideas into robust, scalable, and user-friendly applications that stand the test of time.
+      </p>
+
+      <p className="text-lg">
+        <br /><span className="text-lg font-bold">🤝 Let's Build Together:</span> <br />
+        Whether you're a startup, SME, or enterprise, we're here to turn your ideas into digital masterpieces. Let's collaborate, innovate, and elevate your online presence.
       </p>
     </motion.section>
   );
